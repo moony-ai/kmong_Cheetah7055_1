@@ -6,11 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-.navbar-logo {
-  width: 100px; /* 원하는 너비로 설정 */
-  height: auto; /* 이미지 비율을 유지하면서 너비에 맞게 높이 조절 */
-}
-
 .layout_padding {
   padding: 90px 0;
 }
@@ -348,6 +343,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
+  width: 1000px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -544,6 +540,7 @@ a:focus {
 .track_section {
   position: relative;
   color: #ffffff;
+  padding-bottom: 40px;
 }
 
 .track_section .track_bg_box {
@@ -731,6 +728,7 @@ a:focus {
 
 .contact_section {
   position: relative;
+  padding-top: 90px;
   padding-bottom: 90px;
 }
 
@@ -846,6 +844,7 @@ a:focus {
 .info_section .info_contact .contact_link_box a {
   margin: 5px 0;
   color: #ffffff;
+  width: 500px;
 }
 
 .info_section .info_contact .contact_link_box a i {
